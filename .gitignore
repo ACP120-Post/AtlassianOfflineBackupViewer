@@ -1,0 +1,55 @@
+# Node artifacts
+node_modules/
+dist/
+.cache/
+backups/
+
+# Keep the root-level sample ZIPs in the private repository; keep runtime output local.
+.DS_Store
+test-results/
+playwright-report/
+public-viewer/
+.idea/
+
+# Local and generated files
+documentation.html
+server/licence.mjs.save
+
+# Common OS and build artifacts
+*.class
+*.py[cod]
+*.log
+*.jar
+target/
+TEST*.xml
+Thumbs.db
+*.app
+*.exe
+*.war
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
+# Private and generated files are excluded from the public working copy.
+forge-licence/
+public-viewer/
+.claude/
+.serena/
+.idea/
+settings.json
+backup-sites.json
+export-users.csv
+*.zip
+backups/
+.cache/
+.env*
+*.pem
+*.key
+*.p12
+*.pfx
+*.local.json
+documentation.html
+server/licence.mjs.save

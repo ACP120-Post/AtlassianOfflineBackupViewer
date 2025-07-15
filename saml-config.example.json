@@ -1,0 +1,7 @@
+{
+  "idpSsoUrl": "https://idp.example.com/sso/saml",
+  "idpCert": "-----BEGIN CERTIFICATE-----\n...\n-----END CERTIFICATE-----",
+  "issuer": "confluence-backup-viewer",
+  "callbackUrl": "http://localhost:3000/auth/saml/acs",
+  "groupAttribute": "http://schemas.xmlsoap.org/claims/Group"
+}
